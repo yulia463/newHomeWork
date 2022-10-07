@@ -58,14 +58,15 @@ const HW1 = () => {
             <div className={s2.divider}></div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
-                <div style={{  display: 'flex'}}>
+                <div style={{display: 'flex'}}>
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
-
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message}/>
             </div>
+            <div className={s2.hwTitle}>HomeTask №2</div>
+            <div className={s2.divider}></div>
         </div>
     )
 }

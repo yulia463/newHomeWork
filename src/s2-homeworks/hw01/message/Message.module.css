@@ -3,12 +3,15 @@
 }
 
 .imageAndText {
+padding-left: 500px;
+    padding-right: 24px;
 
 }
 
 .imageAndText img {
     height: 48px;
     width: 48px;
+
 }
 
 .text {
@@ -35,5 +38,5 @@
 }
 
 .time {
-
+padding-left: 500px;
 }
