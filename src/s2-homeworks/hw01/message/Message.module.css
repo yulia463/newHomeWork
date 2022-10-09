@@ -1,20 +1,26 @@
 .message {
-
+align-self: end;
 }
 
 .imageAndText {
-padding-left: 500px;
-    padding-right: 24px;
+display: flex;
 
 }
 
 .imageAndText img {
     height: 48px;
     width: 48px;
+    align-self: flex-end;
 
 }
 
 .text {
+    width: 527px;
+    background: #0066CC;
+    color: white;
+    padding: 8px 25px 8px 13px;
+    border-radius: 9px 9px 0px 9px ;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
 
 }
 
@@ -24,19 +30,22 @@ padding-left: 500px;
 
 .name {
     font-weight: bolder;
+    margin-bottom: 3px;
 }
 
 .messageText {
-    background: #0066CC;
-    color: white;
-    width: 100%;
-    padding: 10px;
-    border-radius: 9px;
-    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
-
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .time {
-padding-left: 500px;
+
+}
+.triangle{
+    border: 8px solid transparent;
+    border-bottom: 8px solid #0066CC;
+    border-left: 8px solid #0066CC;
+    align-self: flex-end;
+
+
 }

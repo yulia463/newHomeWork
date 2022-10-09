@@ -17,7 +17,8 @@ import s2 from '../../s1-main/App.module.css'
 * */
 
 // types
-export type AffairPriorityType = any // need to fix any
+export type AffairPriorityType = any// need to fix any
+
 export type AffairType = {
     _id: any // need to fix any
     name: any // need to fix any
@@ -56,7 +57,8 @@ function HW2() {
 
     return (
         <div id={'hw2'}>
-            <div className={s2.hwTitle}>Homework #2</div>
+            <div className={s2.hwTitle}>Homework №2</div>
+            <div className={s2.divider}></div>
             <div className={s2.hw}>
                 <Affairs
                     data={filteredAffairs}
